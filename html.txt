@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+<head>
+  <title> if
+  </title>
+  <meta charset="utf-8">
+</head>
+
+
+<body>
+<script>
+  //let t=22;
+  
+  let d=new Date();// інформация о текущей дате и времени
+  let t=d.getHours();
+  
+  console.log(t)
+  
+  if(t>17) {
+    str="Вечер"
+
+  }
+   else {
+     str="День"
+  }
+
+alert("Добрий"+str+"!!!")
+</script>
+</body>
+</html>
